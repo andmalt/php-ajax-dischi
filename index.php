@@ -17,10 +17,10 @@ require __DIR__ . '/db/database.php';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main class="container px-5 py-3">
-        <div class="row px-md-5">
+    <main class="container p-5">
+        <div class="row px-lg-5">
             <div class="col-12">
-                <div class="row row-cols-lg-6 row-cols-sm-3 row-cols-1 justify-content-center g-4">
+                <div class="row row-cols-xl-6 row-cols-lg-5 row-cols-sm-3 row-cols-1 justify-content-center g-4">
                     <?php foreach($songss as $song) {?>
                     <div class="col box-song p-3 mx-3">
                         <div class="b-songs">
