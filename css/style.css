@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #1e2d3b;
+}
+.box-song{
+    background-color: #2e3a46;
+}
+.b-songs{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
