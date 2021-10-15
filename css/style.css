@@ -8,10 +8,18 @@ main{
 }
 .box-song{
     background-color: #2e3a46;
+    
 }
 .b-songs{
+    color: white ;
     text-align: center;
     padding: 1rem;
     font-weight: 700;
     font-size: 1rem;
 }
+.b-songs > p{
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.8rem;
+}    

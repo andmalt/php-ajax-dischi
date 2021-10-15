@@ -24,7 +24,7 @@ require __DIR__ . '/db/database.php';
                     <?php foreach($songs as $song) {?>
                     <div class="col box-song p-3 mx-3">
                         <div class="b-songs">
-                            <img class="img-fluid" src="" alt="">
+                            <img class="img-fluid" src="<?php echo $song['poster']; ?>" alt="<?php echo $song['title']; ?>">
                             <h5><?php echo $song['title'] ?></h5>
                             <p><?php echo $song['author'] ?></p>
                             <p><?php echo $song['year'] ?></p>
