@@ -21,7 +21,7 @@ require __DIR__ . '/db/database.php';
         <div class="row px-md-5">
             <div class="col-12">
                 <div class="row row-cols-lg-6 row-cols-sm-3 row-cols-1 justify-content-center g-4">
-                    <?php foreach($songs as $song) {?>
+                    <?php foreach($songss as $song) {?>
                     <div class="col box-song p-3 mx-3">
                         <div class="b-songs">
                             <img class="img-fluid" src="<?php echo $song['poster']; ?>" alt="<?php echo $song['title']; ?>">

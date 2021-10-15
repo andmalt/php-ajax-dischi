@@ -75,4 +75,8 @@ $songs = [
     ], 
 ];
 
+
+$arr = json_encode($songs);
+
+$songss = json_decode( $arr , true);
 ?>
